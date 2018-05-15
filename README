@@ -1,3 +1,5 @@
+Notes on setting up my developer environment. These may one day serve as a launch pad for automating the setup process, but for now these are Good Enough™.
+
 Xcode CLI Tools
 -> xcode-select --install
 
@@ -36,7 +38,7 @@ Optionally globally skip Ruby gem doc installation
 
 Installing gems globally vs. in the user directory
 -> gem env
--> gem install rails --user-install (in this case the user bin needs to be in the PATH)
+-> e.g. gem install rails --user-install (in this case the user bin needs to be in the PATH)
 
 Setup GEM_HOME and GEM_PATH if necessary to avoid sudo'ing all the gems
 -> https://stackoverflow.com/a/2619731
