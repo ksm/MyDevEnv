@@ -20,6 +20,7 @@ Git (check that it is installed, configure it)
 
 Sublime Text
 -> linked subl to ~/bin/subl
+-> custom keymaps: `{ "keys": ["super+shift+j"], "command": "reveal_in_side_bar"}`
 
 Solarized Theme
 -> download and installed color presets for iTerm2
