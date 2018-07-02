@@ -18,9 +18,17 @@ Git (check that it is installed, configure it)
 -> git config --global user.name "Karol S. Mazur"
 -> git config --global user.email "my_email"
 
+Dash
+-> Install relevant docsets
+-> Set global search shortcut to CMD+Return
+
 Sublime Text
 -> linked subl to ~/bin/subl
--> custom keymaps: `{ "keys": ["super+shift+j"], "command": "reveal_in_side_bar"}`
+-> install Package Control https://packagecontrol.io/installation
+-> install DashDoc, keymap { "keys": ["ctrl+h"], "command": "dash_doc"}
+-> install CloseOtherWindows, keymap { "keys": ["shift+super+w"], "command": "close_other_tabs"}
+-> keymap { "keys": ["ctrl+super+left"], "command": "jump_back" },
+-> keymap { "keys": ["super+shift+j"], "command": "reveal_in_side_bar"}
 
 Solarized Theme
 -> download and installed color presets for iTerm2
