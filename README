@@ -4,7 +4,7 @@ Xcode CLI Tools
 -> xcode-select --install
 
 Homebrew
--> installed via the interweb command
+-> https://brew.sh
 
 iTerm2
 -> https://www.iterm2.com
@@ -14,6 +14,18 @@ iTerm2
 Oh My ZSH
 -> uncomment .zshrc PATH setting to enable ~/bin
 -> .zshrc -> ZSH_THEME="avit" or "robbyrussell"
+-> more .zshrc things:
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gx='gitup'
+alias gf='git fetch'
+alias gl='git log'
+alias gh='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
+alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative -p'
 
 Go2Shell
 -> http://zipzapmac.com/go2shell
@@ -29,13 +41,18 @@ Dash
 -> Set global search shortcut to CMD+Return
 
 Sublime Text
--> linked subl to ~/bin/subl
--> install Package Control https://packagecontrol.io/installation
--> install DashDoc, keymap { "keys": ["ctrl+h"], "command": "dash_doc"}
--> install CloseOtherWindows, keymap { "keys": ["shift+super+w"], "command": "close_other_tabs"}
+-> link subl to ~/bin/subl
+-> install Package Control from https://packagecontrol.io/installation
+-> install DashDoc
+-> install CloseOtherWindows
 -> install AllAutocomplete https://packagecontrol.io/packages/All%20Autocomplete
--> keymap { "keys": ["ctrl+super+left"], "command": "jump_back" },
--> keymap { "keys": ["super+shift+j"], "command": "reveal_in_side_bar"}
+-> keymap below:
+[
+  { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
+  { "keys": ["ctrl+super+left"], "command": "jump_back" },
+  { "keys": ["shift+super+w"], "command": "close_other_tabs"},
+  { "keys": ["ctrl+h"], "command": "dash_doc"}
+]
 
 Solarized Theme
 -> download and installed color presets for iTerm2
