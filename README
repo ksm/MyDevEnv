@@ -13,6 +13,7 @@ iTerm2
 
 Oh My ZSH
 -> uncommented .zshrc PATH setting to enable ~/bin
+-> .zshrc -> ZSH_THEME="avit" or "robbyrussell"
 
 Go2Shell
 -> http://zipzapmac.com/go2shell
