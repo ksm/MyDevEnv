@@ -27,6 +27,7 @@ Sublime Text
 -> install Package Control https://packagecontrol.io/installation
 -> install DashDoc, keymap { "keys": ["ctrl+h"], "command": "dash_doc"}
 -> install CloseOtherWindows, keymap { "keys": ["shift+super+w"], "command": "close_other_tabs"}
+-> install AllAutocomplete https://packagecontrol.io/packages/All%20Autocomplete
 -> keymap { "keys": ["ctrl+super+left"], "command": "jump_back" },
 -> keymap { "keys": ["super+shift+j"], "command": "reveal_in_side_bar"}
 
