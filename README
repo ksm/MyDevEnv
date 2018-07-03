@@ -12,7 +12,7 @@ iTerm2
 -> Preferences->Profiles->Colors->Color Presents->Solarized
 
 Oh My ZSH
--> uncommented .zshrc PATH setting to enable ~/bin
+-> uncomment .zshrc PATH setting to enable ~/bin
 -> .zshrc -> ZSH_THEME="avit" or "robbyrussell"
 
 Go2Shell
