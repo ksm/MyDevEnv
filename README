@@ -14,6 +14,10 @@ iTerm2
 Oh My ZSH
 -> uncommented .zshrc PATH setting to enable ~/bin
 
+Go2Shell
+-> http://zipzapmac.com/go2shell
+-> Terminal application to use: iTerm2
+
 Git (check that it is installed, configure it)
 -> which git
 -> git config --global user.name "Karol S. Mazur"
