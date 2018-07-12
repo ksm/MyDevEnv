@@ -78,3 +78,6 @@ Setup GEM_HOME and GEM_PATH if necessary to avoid sudo'ing all the gems
 
 Installing gems per project
 -> bundle install --path vendor/bundle
+
+Paw
+-> https://paw.cloud
