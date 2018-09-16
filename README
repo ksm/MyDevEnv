@@ -11,6 +11,27 @@ iTerm2
 -> Preferences->Profiles->General->Working Directory->Advanced Configuration->Reuse previous session's directory for New Tabs
 -> Preferences->Profiles->Colors->Color Presents->Solarized
 
+Sublime Text
+-> mkdir ~/bin; ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
+-> install Package Control from https://packagecontrol.io/installation
+-> install DashDoc
+-> install CloseOtherWindows
+-> install AllAutocomplete https://packagecontrol.io/packages/All%20Autocomplete
+-> settings:
+[
+  "translate_tabs_to_spaces": true,
+  "tab_size": 2,
+  "font_face": "Monaco",
+  "font_size": 15
+]
+-> keymap below:
+[
+  { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
+  { "keys": ["ctrl+super+left"], "command": "jump_back" },
+  { "keys": ["shift+super+w"], "command": "close_other_tabs"},
+  { "keys": ["ctrl+h"], "command": "dash_doc"}
+]
+
 Oh My ZSH
 -> uncomment .zshrc PATH setting to enable ~/bin
 -> .zshrc -> ZSH_THEME="avit" or "robbyrussell"
@@ -28,8 +49,9 @@ alias gh='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %
 alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative -p'
 
 Go2Shell
--> http://zipzapmac.com/go2shell
--> Terminal application to use: iTerm2
+-> Install from the Mac App Store
+-> open -a Go2Shell --args config
+-> Use iTerm2
 
 Git (check that it is installed, configure it)
 -> which git
@@ -37,26 +59,9 @@ Git (check that it is installed, configure it)
 -> git config --global user.email "my_email"
 
 Dash
+-> https://kapeli.com/dash
 -> Install relevant docsets
 -> Set global search shortcut to CMD+Return
-
-Sublime Text
--> link subl to ~/bin/subl
--> install Package Control from https://packagecontrol.io/installation
--> install DashDoc
--> install CloseOtherWindows
--> install AllAutocomplete https://packagecontrol.io/packages/All%20Autocomplete
--> keymap below:
-[
-  { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
-  { "keys": ["ctrl+super+left"], "command": "jump_back" },
-  { "keys": ["shift+super+w"], "command": "close_other_tabs"},
-  { "keys": ["ctrl+h"], "command": "dash_doc"}
-]
-
-Solarized Theme
--> download and installed color presets for iTerm2
--> turned on the dark solarized theme in iTerm2
 
 GitUp
 -> http://gitup.co
@@ -64,20 +69,25 @@ GitUp
 
 rbenv
 -> brew install rbenv
+-> rbenv init
 -> add eval "$(rbenv init -)" to .zshrc
+-> verify it works: curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 
-Optionally globally skip Ruby gem doc installation
+Skip Ruby gem doc installation globally
 -> echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
-Installing gems globally vs. in the user directory
+Installing gems per rbenv ruby version vs. globally vs. in the user directory
 -> gem env
+-> best practice right now: rbenv install newest ruby version and set, then install relevant gems. this avoids the need for sudo.
 -> e.g. gem install rails --user-install (in this case the user bin needs to be in the PATH)
-
-Setup GEM_HOME and GEM_PATH if necessary to avoid sudo'ing all the gems
--> https://stackoverflow.com/a/2619731
+-> Optionally setup GEM_HOME and GEM_PATH to avoid sudo: https://stackoverflow.com/a/2619731
+-> gem install bundler --user-install
 
 Installing gems per project
 -> bundle install --path vendor/bundle
 
 Paw
 -> https://paw.cloud
+
+nvALT
+-> http://brettterpstra.com/projects/nvalt/#dl
