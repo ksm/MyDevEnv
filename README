@@ -16,14 +16,16 @@ Sublime Text
 -> install Package Control from https://packagecontrol.io/installation
 -> install DashDoc
 -> install CloseOtherWindows
--> install AllAutocomplete https://packagecontrol.io/packages/All%20Autocomplete
+-> install AllAutocomplete
+-> install AdvancedNewFile
 -> settings:
-[
-  "translate_tabs_to_spaces": true,
-  "tab_size": 2,
+{
   "font_face": "Monaco",
-  "font_size": 15
-]
+  "font_size": 15,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "folder_exclude_patterns": ["tmp"],
+}
 -> keymap below:
 [
   { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
@@ -75,6 +77,7 @@ rbenv
 
 Skip Ruby gem doc installation globally
 -> echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+-> or include ri -> echo "gem: --no-rdoc" > ~/.gemrc
 
 Installing gems per rbenv ruby version vs. globally vs. in the user directory
 -> gem env
