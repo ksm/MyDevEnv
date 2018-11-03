@@ -3,6 +3,9 @@ Notes on setting up my developer environment. These may one day serve as a launc
 Xcode CLI Tools
 -> xcode-select --install
 
+Xcode Themes
+-> https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode
+
 Homebrew
 -> https://brew.sh
 
