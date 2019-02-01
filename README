@@ -16,7 +16,8 @@ iTerm2
 
 Sublime Text
 -> mkdir ~/bin; ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
--> install Package Control from https://packagecontrol.io/installation
+-> install Package Control
+-> install Open URL
 -> install DashDoc
 -> install CloseOtherWindows
 -> install AllAutocomplete
