@@ -94,7 +94,13 @@ Installing gems per rbenv ruby version vs. globally vs. in the user directory
 Installing gems per project
 -> bundle install --path vendor/bundle
 
-Paw
+VS Code
+-> https://code.visualstudio.com/Download
+-> brew cask install visual-studio-code
+-> https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
+
+Paw or Insomnia.rest
+-> https://insomnia.rest
 -> https://paw.cloud
 
 nvALT
