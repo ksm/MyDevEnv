@@ -103,5 +103,9 @@ Paw or Insomnia.rest
 -> https://insomnia.rest
 -> https://paw.cloud
 
+Nocturnal
+-> https://github.com/HarshilShah/Nocturnal
+-> brew cask install nocturnal
+
 nvALT
 -> http://brettterpstra.com/projects/nvalt/#dl
