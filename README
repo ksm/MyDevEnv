@@ -100,6 +100,7 @@ VS Code
 -> https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
 Paw or Insomnia.rest
+-> brew cask install insomnia
 -> https://insomnia.rest
 -> https://paw.cloud
 
