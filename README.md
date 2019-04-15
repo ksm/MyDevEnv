@@ -61,19 +61,23 @@ alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset 
 - add `eval "$(rbenv init -)"` to .zshrc
 - verify it works: `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash`
 
-## Skip Ruby gem doc installation globally
+## Configure Ruby gem installation globally to avoid installing docs
 - echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 - or include ri -> echo "gem: --no-rdoc" > ~/.gemrc
 
-Installing gems per rbenv ruby version vs. globally vs. in the user directory:
-- gem env
-- best practice right now: rbenv install newest ruby version and set, then install relevant gems. this avoids the need for sudo.
-- e.g. gem install rails --user-install (in this case the user bin needs to be in the PATH)
-- Optionally setup GEM_HOME and GEM_PATH to avoid sudo: https://stackoverflow.com/a/2619731
-- `gem install bundler --user-install`
+## Ruby
+- install newest Ruby w/ rbenv
 
-Installing gems per project
-- `bundle install --path vendor/bundle`
+### Additional Ruby things
+- `gem install bundler`
+- Installing gems per rbenv ruby version vs. globally vs. in the user directory:
+  - gem env
+  - best practice right now: rbenv install newest ruby version and set, then install relevant gems. this avoids the need for sudo.
+  - e.g. gem install rails --user-install (in this case the user bin needs to be in the PATH)
+  - Optionally setup GEM_HOME and GEM_PATH to avoid sudo: https://stackoverflow.com/a/2619731
+  - `gem install bundler --user-install`
+- Installing gems per project
+  - `bundle install --path vendor/bundle`
 
 ## nvm
 - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
