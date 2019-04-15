@@ -3,6 +3,9 @@ Notes on setting up my developer environment. These may one day serve as a launc
 ## Xcode CLI Tools
 - `xcode-select --install`
 
+## Xcode
+- https://developer.apple.com/download/more/
+
 ## Xcode Themes
 - https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode
 - https://github.com/nelsyeung/Solarized-Light-for-Xcode
