@@ -48,10 +48,10 @@ alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset 
 - Install Command Line Tool
 
 ## rbenv
-- brew install rbenv
-- rbenv init
-- add eval "$(rbenv init -)" to .zshrc
-- verify it works: curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+- `brew install rbenv`
+- `rbenv init`
+- add `eval "$(rbenv init -)"` to .zshrc
+- verify it works: `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash`
 
 ## Skip Ruby gem doc installation globally
 - echo "gem: --no-ri --no-rdoc" > ~/.gemrc
@@ -62,10 +62,15 @@ Installing gems per rbenv ruby version vs. globally vs. in the user directory:
 - best practice right now: rbenv install newest ruby version and set, then install relevant gems. this avoids the need for sudo.
 - e.g. gem install rails --user-install (in this case the user bin needs to be in the PATH)
 - Optionally setup GEM_HOME and GEM_PATH to avoid sudo: https://stackoverflow.com/a/2619731
-- gem install bundler --user-install
+- `gem install bundler --user-install`
 
 Installing gems per project
-- bundle install --path vendor/bundle
+- `bundle install --path vendor/bundle`
+
+## nvm
+- `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
+- verify it works with: `command -v nvm`
+- `nvm install node` to download, compile, and install the latest node
 
 ## Insomnia (or Paw)
 - brew cask install insomnia
