@@ -14,6 +14,11 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - brew cask install visual-studio-code
 - https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
+## VS Code Customization
+- https://labs.voronianski.com/oceanic-next-color-scheme/
+- https://babeljs.io/docs/en/editors/, Babel ES6/ES7 
+- Sublime Text Keymap
+
 ## Homebrew
 - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
