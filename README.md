@@ -54,6 +54,7 @@ alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset 
 ## GitUp
 - http://gitup.co
 - Install Command Line Tool
+- `ssh-add` fixes the ssh no callback set error
 
 ## rbenv
 - `brew install rbenv`
