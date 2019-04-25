@@ -14,10 +14,35 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - brew cask install visual-studio-code
 - https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
-## VS Code Customization
-- https://labs.voronianski.com/oceanic-next-color-scheme/
-- https://babeljs.io/docs/en/editors/, Babel ES6/ES7 
-- Sublime Text Keymap
+## VS Code settings.json
+```
+{
+  "editor.multiCursorModifier": "alt",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Monaco",
+  "workbench.colorTheme": "Solarized Light",
+  "react-native-storybooks.storyRegex": "./src/**/*.stories.*",
+  "react-native-storybooks.port": 8081,
+  "workbench.iconTheme": "ayu",
+  "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "git.autorefresh": false,
+  "git.enabled": false,
+}
+```
+
+## VS Code Extensions
+- mgmcdermott.vscode-language-babel (Babel JavaScript)
+- teabyii.ayu (Ayu File Icon Theme)
+- naumovs.color-highlight (Color Highlight)
+- dbaeumer.vscode-eslint (ESLint)
+- flowtype.flow-for-vscode (Flow Language Support)
+- mhartington.oceanic-next (Oceanic Next)
+- orta.vscode-react-native-storybooks (React Native Storybook)
+- optionally ms-vscode.sublime-keybindings (Sublime Text Keymap and Settings Importer)
 
 ## Homebrew
 - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
