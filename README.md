@@ -17,18 +17,33 @@ Notes on setting up my developer environment. These may one day serve as a launc
 ## VS Code settings.json
 ```
 {
-  "editor.multiCursorModifier": "alt",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+}
+```
+
+```
+{
+  // This (unsafe):
+  "flow.useNPMPackagedFlow": true,
+  // Or this:
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+}
+```
+
+```
+{
+  "editor.tabSize": 2,
   "editor.fontSize": 15,
   "editor.fontFamily": "Monaco",
-  "workbench.colorTheme": "Solarized Light",
+  "editor.multiCursorModifier": "alt",
   "react-native-storybooks.storyRegex": "./src/**/*.stories.*",
   "react-native-storybooks.port": 8081,
   "workbench.iconTheme": "ayu",
-  "editor.tabSize": 2,
-  "eslint.alwaysShowStatus": true,
-  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
-  "typescript.validate.enable": false,
-  "javascript.validate.enable": false,
   "git.autorefresh": false,
   "git.enabled": false,
 }
