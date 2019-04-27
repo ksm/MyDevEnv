@@ -1,5 +1,8 @@
 Notes on setting up my developer environment. These may one day serve as a launch pad for automating the setup process, but for now these are Good Enough™.
 
+## General macOS settings
+- Mission Control-Automatically rearrange spaces-off
+
 ## Xcode CLI Tools
 - `xcode-select --install`
 
