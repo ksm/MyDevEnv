@@ -30,8 +30,10 @@ Notes on setting up my developer environment. These may one day serve as a launc
   "javascript.validate.enable": false,
   "javascript.format.enable": false,
   "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "prettier.eslintIntegration": true
 }
 ```
 
