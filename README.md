@@ -24,7 +24,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
 
 ## VS Code settings.json
 
-```
+```json
 {
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
@@ -37,26 +37,25 @@ Notes on setting up my developer environment. These may one day serve as a launc
 }
 ```
 
-```
+```json
 {
-  // This (unsafe):
   "flow.useNPMPackagedFlow": true,
-  // Or this:
-  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  // or
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow"
 }
 ```
 
-```
+```json
 {
   "editor.tabSize": 2,
   "editor.fontSize": 15,
   "editor.fontFamily": "Monaco",
   "editor.multiCursorModifier": "alt",
-  "react-native-storybooks.storyRegex": "./src/**/*.stories.*",
-  "react-native-storybooks.port": 8081,
   "workbench.iconTheme": "ayu",
   "git.autorefresh": false,
   "git.enabled": false,
+  "react-native-storybooks.storyRegex": "./src/**/*.stories.*",
+  "react-native-storybooks.port": 8081
 }
 ```
 
@@ -86,7 +85,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - uncomment .zshrc PATH setting to enable ~/bin
 - more .zshrc things:
 
-```
+```sh
   alias gs='git status '
   alias ga='git add '
   alias gb='git branch '
