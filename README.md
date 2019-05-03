@@ -156,6 +156,10 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - https://insomnia.rest
 - https://paw.cloud
 
+## GraphiQL
+
+- brew cask install graphiql
+
 ## Nocturnal
 
 - https://github.com/HarshilShah/Nocturnal
