@@ -1,23 +1,29 @@
 Notes on setting up my developer environment. These may one day serve as a launch pad for automating the setup process, but for now these are Good Enough™.
 
 ## General macOS settings
+
 - Mission Control-Automatically rearrange spaces-off
 
 ## Xcode CLI Tools
+
 - `xcode-select --install`
 
 ## Xcode
+
 - https://developer.apple.com/download/more/
 
 ## Xcode Themes
+
 - https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode
 - https://github.com/nelsyeung/Solarized-Light-for-Xcode
 
 ## VS Code
+
 - brew cask install visual-studio-code
 - https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
 ## VS Code settings.json
+
 ```
 {
   "typescript.validate.enable": false,
@@ -53,6 +59,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
 ```
 
 ## VS Code Extensions
+
 - mgmcdermott.vscode-language-babel (Babel JavaScript)
 - teabyii.ayu (Ayu File Icon Theme)
 - naumovs.color-highlight (Color Highlight)
@@ -63,56 +70,69 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - optionally ms-vscode.sublime-keybindings (Sublime Text Keymap and Settings Importer)
 
 ## Homebrew
+
 - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ## iTerm2
+
 - `brew cask install iterm2`
 - Preferences->Profiles->General->Working Directory->Advanced Configuration->Reuse previous session's directory for New Tabs
 - Preferences->Profiles->Colors->Color Presents->Solarized
 
 ## Oh My ZSH
+
 - uncomment .zshrc PATH setting to enable ~/bin
 - more .zshrc things:
-alias gs='git status '
-alias ga='git add '
-alias gb='git branch '
-alias gc='git commit'
-alias gd='git diff'
-alias go='git checkout '
-alias gx='gitup'
-alias gf='git fetch'
-alias gl='git log'
-alias gh='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
-alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative -p'
+
+```
+  alias gs='git status '
+  alias ga='git add '
+  alias gb='git branch '
+  alias gc='git commit'
+  alias gd='git diff'
+  alias go='git checkout '
+  alias gx='gitup'
+  alias gf='git fetch'
+  alias gl='git log'
+  alias gh='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
+  alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative -p'
+```
 
 ## Configure Git
+
 - git config --global user.name "Karol S. Mazur"
 - git config --global user.email "my_email"
 
 ## Dash
+
 - https://kapeli.com/dash
 - Install relevant docsets
 - Set global search shortcut to CMD+Return
 
 ## GitUp
+
 - http://gitup.co
 - Install Command Line Tool
 - `ssh-add` fixes the ssh no callback set error
 
 ## rbenv
+
 - `brew install rbenv`
 - `rbenv init`
 - add `eval "$(rbenv init -)"` to .zshrc
 - verify it works: `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash`
 
 ## Configure Ruby gem installation globally to avoid installing docs
+
 - echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 - or include ri -> echo "gem: --no-rdoc" > ~/.gemrc
 
 ## Ruby
+
 - install newest Ruby w/ rbenv
 
 ### Additional Ruby things
+
 - `gem install bundler`
 - Installing gems per rbenv ruby version vs. globally vs. in the user directory:
   - gem env
@@ -124,24 +144,29 @@ alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset 
   - `bundle install --path vendor/bundle`
 
 ## nvm
+
 - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
 - verify it works with: `command -v nvm`
 - `nvm install node` to download, compile, and install the latest node
 
 ## Insomnia (or Paw)
+
 - brew cask install insomnia
 - https://insomnia.rest
 - https://paw.cloud
 
 ## Nocturnal
+
 - https://github.com/HarshilShah/Nocturnal
 - brew cask install nocturnal
 - configure so it starts with every login
 
 ## nvALT
+
 -> http://brettterpstra.com/projects/nvalt/#dl
 
 ## Sublime Text (Using VS Code instead for now)
+
 - mkdir ~/bin; ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
 - install Package Control
 - install Open URL
@@ -150,6 +175,7 @@ alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset 
 - install AllAutocomplete
 - install AdvancedNewFile
 - settings:
+
 ```
   {
     "font_face": "Monaco",
@@ -159,7 +185,9 @@ alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset 
     "folder_exclude_patterns": ["tmp"],
   }
 ```
+
 - keymap below:
+
 ```
 [
   { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
