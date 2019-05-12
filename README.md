@@ -104,6 +104,11 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - git config --global user.name "Karol S. Mazur"
 - git config --global user.email "my_email"
 
+## Hub
+
+- `brew install hub`
+- then use e.g. `hub clone MyDevEnv`
+
 ## Dash
 
 - https://kapeli.com/dash
