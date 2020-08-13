@@ -44,7 +44,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
   - https://draculatheme.com/visual-studio-code
   - https://draculatheme.com/xcode
 
-## VS Code settings.json
+## VSCode settings.json
 
 Editor settings
 
@@ -113,7 +113,34 @@ Ye olde settings:
 }
 ```
 
-## VS Code Extensions
+## VSCode keybindings.json
+
+```json
+{
+  "key": "cmd+t",
+  "command": "workbench.action.terminal.toggleTerminal"
+},
+{
+  "key": "cmd+t",
+  "command": "workbench.action.terminal.focus",
+  "when": "!terminalFocus"
+},
+{
+  "key": "ctrl+cmd+e",
+  "command": "editor.action.changeAll",
+  "when": "editorTextFocus && editorTextFocus && !editorReadonly"
+},
+{
+  "key": "ctrl+cmd+left",
+  "command": "workbench.action.navigateBack"
+},
+{
+  "key": "ctrl+cmd+right",
+  "command": "workbench.action.navigateForward"
+},
+```
+
+## VSCode Extensions
 
 - mgmcdermott.vscode-language-babel (Babel JavaScript)
 - teabyii.ayu (Ayu File Icon Theme)
