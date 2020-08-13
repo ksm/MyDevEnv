@@ -1,8 +1,9 @@
-Notes on setting up my developer environment. These may one day serve as a launch pad for automating the setup process, but for now these are Good Enough™.
+Notes on setting up my developer environment. These will serve as a launch pad for automating the setup process, but for now they are are Good Enough™.
 
 ## General macOS settings
 
-- Mission Control-Automatically rearrange spaces-off
+- Mission Control -> Deselect automatically rearrange Spaces
+- Keyboard -> Max out Key Repeat and almost max Delay Until Repeat
 
 ## Xcode CLI Tools
 
