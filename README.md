@@ -268,6 +268,12 @@ alias ghip='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset
 - brew cask install nocturnal
 - configure so it starts with every login
 
+# To evaluate
+
+## Z
+
+- https://github.com/rupa/z
+
 # Ye Olde Tooling
 
 ## Xcode Themes
