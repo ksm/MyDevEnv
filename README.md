@@ -85,6 +85,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
 
 ## Oh My ZSH
 
+- https://github.com/ohmyzsh/ohmyzsh
 - uncomment .zshrc PATH setting to enable ~/bin
 - more .zshrc things:
 
