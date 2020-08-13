@@ -159,6 +159,13 @@ Ye olde settings:
 - Install relevant docsets
 - Set global search shortcut to CMD+Return
 
+## Divvy
+
+- https://mizage.com/divvy/
+- Settings -> Keyboard -> Shortcuts -> Input Sources -> Turn off CTRL+Space
+- Use CTRL+Space for the global shortcut
+- Basic Divvy shortcuts: 50% Left, 50% Right, Full Screen
+
 ## GitUp
 
 - http://gitup.co
