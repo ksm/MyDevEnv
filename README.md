@@ -20,6 +20,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
   - Profiles
     - General -> Working Directory -> Advanced Configuration -> Reuse previous session's directory for New Tabs and Split Panes
     - Colors -> Color Presets -> Dracula
+    - Text -> Configure for Fira Code and see how it goes
 
 ## Xcode
 
