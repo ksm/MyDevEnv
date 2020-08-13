@@ -175,10 +175,6 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - brew cask install nocturnal
 - configure so it starts with every login
 
-## nvALT
-
--> http://brettterpstra.com/projects/nvalt/#dl
-
 ## Sublime Text (Using VS Code instead for now)
 
 - mkdir ~/bin; ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
