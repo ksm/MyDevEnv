@@ -77,8 +77,11 @@ Notes on setting up my developer environment. These may one day serve as a launc
 ## iTerm2
 
 - `brew cask install iterm2`
-- Preferences->Profiles->General->Working Directory->Advanced Configuration->Reuse previous session's directory for New Tabs
-- Preferences->Profiles->Colors->Color Presents->Solarized
+- Preferences
+  - Appearance -> General -> Theme -> Minimal
+  - Profiles
+    - General -> Working Directory -> Advanced Configuration -> Reuse previous session's directory for New Tabs and Split Panes
+    - Colors -> Color Presets -> Whatever works
 
 ## Oh My ZSH
 
