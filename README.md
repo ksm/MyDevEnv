@@ -8,6 +8,19 @@ Notes on setting up my developer environment. These may one day serve as a launc
 
 - `xcode-select --install`
 
+## Homebrew
+
+- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+## iTerm2
+
+- `brew cask install iterm2`
+- Preferences
+  - Appearance -> General -> Theme -> Minimal
+  - Profiles
+    - General -> Working Directory -> Advanced Configuration -> Reuse previous session's directory for New Tabs and Split Panes
+    - Colors -> Color Presets -> Whatever works
+
 ## Xcode
 
 - https://developer.apple.com/download/more/
@@ -64,19 +77,6 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - mhartington.oceanic-next (Oceanic Next)
 - orta.vscode-react-native-storybooks (React Native Storybook)
 - optionally ms-vscode.sublime-keybindings (Sublime Text Keymap and Settings Importer)
-
-## Homebrew
-
-- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-## iTerm2
-
-- `brew cask install iterm2`
-- Preferences
-  - Appearance -> General -> Theme -> Minimal
-  - Profiles
-    - General -> Working Directory -> Advanced Configuration -> Reuse previous session's directory for New Tabs and Split Panes
-    - Colors -> Color Presets -> Whatever works
 
 ## Oh My ZSH
 
