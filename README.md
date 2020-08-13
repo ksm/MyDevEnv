@@ -45,40 +45,70 @@ Notes on setting up my developer environment. These may one day serve as a launc
 
 ## VS Code settings.json
 
+Editor settings
+
 ```json
+{
+  "editor.tabSize": 2,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1
+}
+```
+
+More streamlined VSCode
+
+```json
+{
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "git.decorations.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.fontAliasing": "antialiased",
+  "zenMode.fullScreen": true,
+  "workbench.activityBar.visible": false,
+  "editor.matchBrackets": "never",
+  "editor.renderLineHighlight": "none",
+  "editor.renderIndentGuides": false,
+  "editor.renderControlCharacters": false,
+  "workbench.sideBar.location": "right",
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "editor.glyphMargin": false,
+  "editor.folding": true,
+  "window.title": "${activeEditorMedium}${separator}${rootName}"
+}
+```
+
+Other settings
+
+````json
 {
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
   "javascript.format.enable": false,
   "eslint.alwaysShowStatus": true,
   "eslint.packageManager": "yarn",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "prettier.eslintIntegration": true
-}
-```
-
-```json
-{
-  "flow.useNPMPackagedFlow": true,
-  // or
-  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow"
-}
-```
-
-```json
-{
-  "editor.tabSize": 2,
-  "editor.fontSize": 15,
-  "editor.fontFamily": "Monaco",
-  "editor.multiCursorModifier": "alt",
-  "workbench.iconTheme": "ayu",
+  "prettier.eslintIntegration": true,
   "git.autorefresh": false,
-  "git.enabled": false,
-  "react-native-storybooks.storyRegex": "./src/**/*.stories.*",
-  "react-native-storybooks.port": 8081
+  "solargraph.useBundler": true,
+}
+
+Flow magic
+
+```json
+{
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/flow-bin/vendor/flow.cmd",
+}
+````
+
+Ye olde settings:
+
+```json
+{
+  "editor.multiCursorModifier": "alt",
+  "workbench.iconTheme": "ayu"
 }
 ```
 
