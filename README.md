@@ -12,11 +12,6 @@ Notes on setting up my developer environment. These may one day serve as a launc
 
 - https://developer.apple.com/download/more/
 
-## Xcode Themes
-
-- https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode
-- https://github.com/nelsyeung/Solarized-Light-for-Xcode
-
 ## VS Code
 
 - brew cask install visual-studio-code
@@ -174,3 +169,10 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - https://github.com/HarshilShah/Nocturnal
 - brew cask install nocturnal
 - configure so it starts with every login
+
+# Ye Olde Tooling
+
+## Xcode Themes
+
+- https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode
+- https://github.com/nelsyeung/Solarized-Light-for-Xcode
