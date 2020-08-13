@@ -27,7 +27,7 @@ Notes on setting up my developer environment. These will serve as a launch pad f
 
 - https://developer.apple.com/download/more/
 
-## VS Code
+## VSCode
 
 - brew cask install visual-studio-code
 - https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
