@@ -155,6 +155,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
 
 ## nvm
 
+- https://github.com/nvm-sh/nvm
 - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
 - verify it works with: `command -v nvm`
 - `nvm install node` to download, compile, and install the latest node
