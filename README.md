@@ -19,7 +19,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
   - Appearance -> General -> Theme -> Minimal
   - Profiles
     - General -> Working Directory -> Advanced Configuration -> Reuse previous session's directory for New Tabs and Split Panes
-    - Colors -> Color Presets -> Whatever works
+    - Colors -> Color Presets -> Dracula
 
 ## Xcode
 
