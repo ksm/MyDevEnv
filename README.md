@@ -94,6 +94,7 @@ Other settings
   "prettier.eslintIntegration": true,
   "git.autorefresh": false,
   "solargraph.useBundler": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 
 Flow magic
