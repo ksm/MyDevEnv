@@ -30,6 +30,16 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - brew cask install visual-studio-code
 - https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
+## Fonts and themes
+
+- FiraCode
+  - https://github.com/tonsky/FiraCode
+  - https://github.com/tonsky/FiraCode/wiki#how-to-enable-ligatures
+- Dracula
+  - https://draculatheme.com
+  - mkdir ~/Themes
+  - https://draculatheme.com/iterm
+
 ## VS Code settings.json
 
 ```json
