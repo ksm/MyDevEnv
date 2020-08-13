@@ -221,7 +221,9 @@ Ye olde settings:
 
 ## Ruby
 
-- install newest Ruby w/ rbenv
+- install latest Ruby w/ rbenv
+  - e.g. `rbenv install 2.7.1`
+- `echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc`
 
 ### Additional Ruby things
 
@@ -234,6 +236,7 @@ Ye olde settings:
   - `gem install bundler --user-install`
 - Installing gems per project
   - `bundle install --path vendor/bundle`
+- `gem install cocoapods`
 
 ## nvm
 
@@ -241,6 +244,14 @@ Ye olde settings:
 - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
 - verify it works with: `command -v nvm`
 - `nvm install node` to download, compile, and install the latest node
+
+## Yarn
+
+- `brew install yarn`
+
+## watchman
+
+- `brew install watchman`
 
 ## Insomnia
 
