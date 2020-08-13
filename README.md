@@ -159,11 +159,10 @@ Notes on setting up my developer environment. These may one day serve as a launc
 - verify it works with: `command -v nvm`
 - `nvm install node` to download, compile, and install the latest node
 
-## Insomnia (or Paw)
+## Insomnia
 
 - brew cask install insomnia
 - https://insomnia.rest
-- https://paw.cloud
 
 ## GraphiQL
 
