@@ -163,20 +163,19 @@ Ye olde settings:
 
 - https://github.com/ohmyzsh/ohmyzsh
 - uncomment .zshrc PATH setting to enable ~/bin
-- more .zshrc things:
+
+More .zshrc things:
 
 ```sh
-  alias gs='git status '
-  alias ga='git add '
-  alias gb='git branch '
-  alias gc='git commit'
-  alias gd='git diff'
-  alias go='git checkout '
-  alias gx='gitup'
-  alias gf='git fetch'
-  alias gl='git log'
-  alias gh='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
-  alias ghp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative -p'
+plugins=(git rails yarn bundler brew)
+
+alias zshconfig="code -n ~/.zshrc"
+
+alias go='git checkout '
+alias gx='gitup'
+alias gs='git status'
+alias ghi='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
+alias ghip='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative -p'
 ```
 
 ## Configure Git
