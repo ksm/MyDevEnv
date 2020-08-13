@@ -39,6 +39,8 @@ Notes on setting up my developer environment. These may one day serve as a launc
   - https://draculatheme.com
   - mkdir ~/Themes
   - https://draculatheme.com/iterm
+  - https://draculatheme.com/visual-studio-code
+  - https://draculatheme.com/xcode
 
 ## VS Code settings.json
 
