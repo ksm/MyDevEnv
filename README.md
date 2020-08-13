@@ -142,14 +142,20 @@ Ye olde settings:
 
 ## VSCode Extensions
 
-- mgmcdermott.vscode-language-babel (Babel JavaScript)
-- teabyii.ayu (Ayu File Icon Theme)
-- naumovs.color-highlight (Color Highlight)
-- dbaeumer.vscode-eslint (ESLint)
-- flowtype.flow-for-vscode (Flow Language Support)
-- mhartington.oceanic-next (Oceanic Next)
-- orta.vscode-react-native-storybooks (React Native Storybook)
-- optionally ms-vscode.sublime-keybindings (Sublime Text Keymap and Settings Importer)
+- Apollo GraphQL
+- AutoTrim
+- Babel JavaScript (mgmcdermott.vscode-language-babel)
+- Color Highlight (naumovs.color-highlight)
+- ESLint (dbaeumer.vscode-eslint)
+- Flow Language Support (flowtype.flow-for-vscode)
+- Git Blame
+- npm Intellisense
+- Path Intellisense
+- Prettier
+- Ruby Solargraph
+- VSCode Ruby
+- Live Share
+- Markdown Preview GitHub Styling
 
 ## Oh My ZSH
 
