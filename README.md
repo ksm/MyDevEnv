@@ -34,6 +34,7 @@ Notes on setting up my developer environment. These may one day serve as a launc
 
 - FiraCode
   - https://github.com/tonsky/FiraCode
+  - https://github.com/tonsky/FiraCode/wiki/Installing#macos
   - https://github.com/tonsky/FiraCode/wiki#how-to-enable-ligatures
 - Dracula
   - https://draculatheme.com
