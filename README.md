@@ -178,6 +178,10 @@ alias ghi='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset 
 alias ghip='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative -p'
 ```
 
+## Powerlevel10k
+
+- https://github.com/romkatv/powerlevel10k
+
 ## Configure Git
 
 - git config --global user.name "Karol S. Mazur"
