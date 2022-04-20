@@ -262,6 +262,19 @@ alias ghip='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset
 - brew cask install insomnia
 - https://insomnia.rest
 
+## React Native launch packager in iTerm
+
+- node_modules/react-native/scripts
+  - Get Info -> Open with iTerm -> Change All...
+
+# Potentially
+
+## Z
+
+- https://github.com/rupa/z
+
+# Ye Olde Tooling
+
 ## GraphiQL
 
 - brew cask install graphiql
@@ -271,14 +284,6 @@ alias ghip='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset
 - https://github.com/HarshilShah/Nocturnal
 - brew cask install nocturnal
 - configure so it starts with every login
-
-# To evaluate
-
-## Z
-
-- https://github.com/rupa/z
-
-# Ye Olde Tooling
 
 ## Xcode Themes
 
