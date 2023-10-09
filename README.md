@@ -32,6 +32,10 @@ Notes on setting up my developer environment. These will serve as a launch pad f
 - brew cask install visual-studio-code
 - https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
+## MonitorControl
+
+- https://github.com/MonitorControl/MonitorControl
+
 ## Fonts and themes
 
 - FiraCode
@@ -231,6 +235,10 @@ alias ghip='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset
 - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
 - verify it works with: `command -v nvm`
 - `nvm install node` to download, compile, and install the latest node
+
+## Postgres.app
+
+- https://postgresapp.com
 
 ## Yarn
 
