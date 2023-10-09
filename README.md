@@ -85,7 +85,7 @@ More streamlined VSCode
 
 Other settings
 
-````json
+```json
 {
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
@@ -96,22 +96,6 @@ Other settings
   "git.autorefresh": false,
   "solargraph.useBundler": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
-}
-
-Flow magic
-
-```json
-{
-  "flow.pathToFlow": "${workspaceFolder}/node_modules/flow-bin/vendor/flow.cmd",
-}
-````
-
-Ye olde settings:
-
-```json
-{
-  "editor.multiCursorModifier": "alt",
-  "workbench.iconTheme": "ayu"
 }
 ```
 
@@ -149,7 +133,6 @@ Ye olde settings:
 - Babel JavaScript (mgmcdermott.vscode-language-babel)
 - Color Highlight (naumovs.color-highlight)
 - ESLint (dbaeumer.vscode-eslint)
-- Flow Language Support (flowtype.flow-for-vscode)
 - Git Blame
 - npm Intellisense
 - Path Intellisense
@@ -274,16 +257,6 @@ alias ghip='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset
 - https://github.com/rupa/z
 
 # Ye Olde Tooling
-
-## GraphiQL
-
-- brew cask install graphiql
-
-## Nocturnal
-
-- https://github.com/HarshilShah/Nocturnal
-- brew cask install nocturnal
-- configure so it starts with every login
 
 ## Xcode Themes
 
